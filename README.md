@@ -128,27 +128,6 @@ numpy
 - 📊 **Rich book metadata** including ratings and genres
 - 🔄 **Real-time recommendations** based on user queries
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
----
-
-## 👤 Author
-
-**Your Name**
-
-- GitHub: [@yourusername](https://github.com/yourusername)
-
----
 
 ## ⭐ Show Your Support
 
