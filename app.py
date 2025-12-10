@@ -17,7 +17,7 @@ sample_books = pd.read_csv("sample_books.csv")
 sample_embeddings = np.load("sample_embeddings.npy")
 
 # ----------------------------
-# Load models (once)
+# Load model
 # ----------------------------
 @st.cache_resource
 def load_models():
@@ -26,7 +26,7 @@ def load_models():
     sent_model = AutoModelForSequenceClassification.from_pretrained(
         "cardiffnlp/twitter-roberta-base-sentiment-latest"
     )
-    sent_model.to("cpu")  # force CPU
+    sent_model.to("cpu")
     return embed_model, tokenizer, sent_model
 
 model, tokenizer, sent_model = load_models()
