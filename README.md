@@ -127,8 +127,3 @@ numpy
 - 🎨 **Interactive UI** with Streamlit
 - 📊 **Rich book metadata** including ratings and genres
 - 🔄 **Real-time recommendations** based on user queries
-
-
-## ⭐ Show Your Support
-
-Give a ⭐️ if this project helped you!
